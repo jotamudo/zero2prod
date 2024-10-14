@@ -5,4 +5,3 @@ edition = "2021"
 
 [dependencies]
 actix-web = {version = "4.9.0", features = ["experimental-io-uring"]}
-tokio = {version = "1", features = ["macros", "rt-multi-thread"]}
